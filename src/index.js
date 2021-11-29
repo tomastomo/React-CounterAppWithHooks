@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CounterApp from './components/CounterApp';
+//import CounterApp from './components/CounterApp';
+import Hello from './components/Hello';
 import './styles/styles.css';
 
 const div = document.querySelector("#app");
 
-ReactDOM.render(<CounterApp value={10} />,div);
+ReactDOM.render(<Hello welcome="Hi from React" />,div);

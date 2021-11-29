@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Hello> should show Hi from React 1`] = `
+<Fragment>
+  <h1>
+    Hi From React
+  </h1>
+  <p>
+    My first React page
+  </p>
+</Fragment>
+`;

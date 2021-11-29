@@ -1,17 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const hello = ({welcome}) => {
+const Hello = ({welcome, subtitle}) => {
     return (
         <>
             <h1>{welcome}</h1>
-            <p>My first App</p>
+            <p>{subtitle}</p>
         </>
     );
 }
 
-hello.PropTypes ={
+Hello.propTypes ={
     welcome: PropTypes.string,
 }
 
-export default hello;
+Hello.defaultProps ={
+    subtitle: 'My first React page',
+}
+
+export default Hello;
